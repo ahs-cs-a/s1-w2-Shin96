@@ -32,19 +32,19 @@ public class BodyOfWater {
         isSaltWater = isw;
     }
 
-    public String name(){
+    public String getName(){
         return name;
     }
     
-    public double largestDiameter(){
+    public double getLargestDiameter(){
         return largestDiameter;
     }
 
-    public double avgDepth(){
+    public double getAvgDepth(){
         return avgDepth;
     }
 
-    public boolean isSaltWater(){
+    public boolean getIsSaltWater(){
         return isSaltWater;
     }
 }
